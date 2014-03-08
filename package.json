@@ -1,0 +1,42 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-template-component",
+  "desription": "Generic template component to convert input using any template compiler",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/template-component",
+  "repository": {
+    "url": "git@github.com:quiverjs/template-component.git"
+  },
+  "dependencies": {
+    "quiver-copy": "~0.1.4",
+    "quiver-error": "~0.1.0",
+    "quiver-config": "~0.0.7",
+    "quiver-module": "~0.1.2",
+    "quiver-component": "~0.2.1",
+    "quiver-file-component": "~0.2.0",
+    "quiver-stream-convert": "~0.0.11",
+    "quiver-cache-component": "~0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.2",
+    "mustache": "~0.8.1",
+    "quiver-merge": "0.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/template-component/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/template-component",
+  "scripts": {
+    "test": "make test"
+  }
+}
